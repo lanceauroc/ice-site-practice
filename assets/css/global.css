@@ -1,0 +1,85 @@
+/* Global Styling */
+.l-_hpx {
+    padding: 100px 0;
+  }
+  
+  h2,
+  h3,
+  p,
+  a {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+  }
+  
+  h2,
+  h3 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  p,
+  p a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  
+  .h-4 {
+    font-size: 18px;
+  }
+  
+  .header_text {
+    color: #50b0d2;
+  }
+  
+  .black-text {
+    color: #20201f;
+  }
+  
+  @media (min-width: 1200px) {
+    h2 {
+      font-size: 40px;
+    }
+  
+    h3 {
+      font-size: 30px;
+    }
+  
+    .wrapper {
+      max-width: 1640px;
+      margin: auto;
+      padding: 0 30px;
+    }
+  }
+  
+  @media (max-width: 1199px) {
+    h2 {
+      font-size: 35px;
+    }
+  
+    h3 {
+      font-size: 25px;
+    }
+  
+    .l-_hpx {
+      padding: 70px 30px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    h2 {
+      font-size: 30px;
+    }
+  
+    .l-_hpx {
+      padding: 50px 8px;
+    }
+  }
+
+  
