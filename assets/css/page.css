@@ -1,3 +1,7 @@
 section.vid-carousel {
     background-color: #d3d3d3;
 }
+
+section.vid-carousel h1 {
+    margin-bottom: 60px;
+}
