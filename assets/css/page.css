@@ -5,3 +5,8 @@ section.vid-carousel {
 section.vid-carousel h1 {
     margin-bottom: 60px;
 }
+
+section.vid-carousel #carousel_one {
+    margin: 30px auto;
+}
+
