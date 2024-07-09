@@ -10,3 +10,18 @@ section.vid-carousel #carousel_one {
     margin: 30px auto;
 }
 
+section.banner .content {
+    position: relative;
+    overflow: hidden;
+}
+
+section.banner img {
+    max-width: 971px;
+    width: 100%;
+    /* position: absolute; */
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
