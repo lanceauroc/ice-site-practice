@@ -1,7 +1,3 @@
-/* section.vid-carousel {
-    background-color: #d3d3d3;
-} */
-
 section.vid-carousel h1 {
     margin-bottom: 60px;
 }
@@ -10,18 +6,17 @@ section.vid-carousel #carousel_one {
     margin: 30px auto;
 }
 
-section.banner .image-content {
+section.banner {
+    padding-top: 0;
+}
+
+section.banner .banner-content {
     position: relative;
-    overflow: hidden;
 }
 
 section.banner img {
-    max-width: 971px;
+    max-width: 1020px;
     width: 100%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
+    /* position: absolute; */
 }
 
