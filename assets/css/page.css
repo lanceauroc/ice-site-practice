@@ -1,6 +1,6 @@
-section.vid-carousel {
-    /* background-color: #d3d3d3; */
-}
+/* section.vid-carousel {
+    background-color: #d3d3d3;
+} */
 
 section.vid-carousel h1 {
     margin-bottom: 60px;
@@ -18,10 +18,10 @@ section.banner .image-content {
 section.banner img {
     max-width: 971px;
     width: 100%;
-    /* position: absolute; */
-    /* top: 0;
+    position: absolute;
+    top: 0;
     bottom: 0;
     right: 0;
-    left: 0; */
+    left: 0;
 }
 
