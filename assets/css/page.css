@@ -9,20 +9,27 @@ section.vid-carousel #carousel_one {
 section.banner {
     padding-top: 0;
 }
+ 
+section.banner .container-fluid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.banner .row {
+    max-height: 488px;
+    height: 100%;
+}
 
 section.banner .banner-content h1 {
     position: relative;
     font-size: 80px;
-    max-width: 747px;
+    max-width: 991px;
     width: 100%;
+    margin-left: auto;
+    margin-top: auto;
+    text-align: right;
 }
 
-section.banner img {
-    max-width: 747px;
-    width: 100%;
-    position: absolute;
-    right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-}
 
