@@ -10,13 +10,19 @@ section.banner {
     padding-top: 0;
 }
 
-section.banner .banner-content {
+section.banner .banner-content h1 {
     position: relative;
+    font-size: 80px;
+    max-width: 747px;
+    width: 100%;
 }
 
 section.banner img {
-    max-width: 1020px;
+    max-width: 747px;
     width: 100%;
-    /* position: absolute; */
+    position: absolute;
+    right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
