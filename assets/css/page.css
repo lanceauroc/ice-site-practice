@@ -32,4 +32,12 @@ section.banner .banner-content h1 {
     text-align: right;
 }
 
+section.grid-test .contents {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
+section.grid-test .contents  img {
+    max-width: 300px;
+    width: 100%;
+}
