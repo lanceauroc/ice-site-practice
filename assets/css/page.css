@@ -35,10 +35,11 @@ section.banner .banner-content h1 {
 section.grid-test .contents {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
+    background-color: pink;
 }
 
 section.grid-test .contents  img {
     max-width: 300px;
     width: 100%;
+    margin: 0 auto;
 }
