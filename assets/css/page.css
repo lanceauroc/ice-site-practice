@@ -44,6 +44,19 @@ section.banner .banner-content h1 {
     text-align: right;
 }
 
+section.banner .right-image {
+    position: relative;
+}
+
+section.banner .right_image img {
+    position: absolute;
+    z-index: -1;
+    max-height: 400px;
+    height: 100%;
+    bottom: -85px;
+    right: 0;
+}
+
 section.grid-test .contents {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
