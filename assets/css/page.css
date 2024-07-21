@@ -47,7 +47,6 @@ section.banner .banner-content h1 {
 section.grid-test .contents {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: pink;
 }
 
 section.grid-test .contents  img {
