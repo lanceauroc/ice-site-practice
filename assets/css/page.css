@@ -69,3 +69,7 @@ section.grid-test .contents  img {
     width: 100%;
     margin: 0 auto;
 }
+
+section.cta-banner {
+    background: #50b0d2;
+}
