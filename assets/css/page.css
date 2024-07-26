@@ -73,3 +73,10 @@ section.grid-test .contents  img {
 section.cta-banner {
     background: #50b0d2;
 }
+
+section.with-cards .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(750px, 1fr));
+    grid-gap: 30px;
+    align-items: stretch;
+}
