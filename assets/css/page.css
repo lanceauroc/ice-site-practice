@@ -74,6 +74,10 @@ section.cta-banner {
     background: #50b0d2;
 }
 
+section.with-cards .__header {
+    margin-bottom: 20px;
+}
+
 section.with-cards .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(750px, 1fr));
