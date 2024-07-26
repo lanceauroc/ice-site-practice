@@ -1,3 +1,8 @@
+body {
+    min-width: 480px;
+    width: 100%;
+}
+
 section.vid-carousel {
     padding-bottom: 0;
 }
@@ -78,6 +83,7 @@ section.with-cards .__header {
     margin-bottom: 20px;
 }
 
+/* The minmax value here should match the body's min-width (on smaller screens)*/
 section.with-cards .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(750px, 1fr));
@@ -95,4 +101,10 @@ section.with-cards .card {
 section.with-cards .card svg {
     max-width: 250px;
     width: 100%;
+}
+
+@media (max-width: 575px) {
+    section.with-cards .grid {
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    }
 }
