@@ -80,3 +80,15 @@ section.with-cards .grid {
     grid-gap: 30px;
     align-items: stretch;
 }
+
+section.with-cards .card {
+    display: flex;
+    padding: 30px 45px;
+    gap: 20px;
+    background: #50b0d2;
+}
+
+section.with-cards .card svg {
+    max-width: 250px;
+    width: 100%;
+}
